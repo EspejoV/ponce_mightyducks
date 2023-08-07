@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 40vh;
+    background-image: url(design1_image1.jpg);
+}
+
+.banner h1 {
+    position: absolute;
+    font-size: 10vh;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 1px;
+}
+
+.titulo h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    position:absolute;
+    top: 35%;
+    left: 75%;
+    background-color: black;
+}
+
+.principal {
+    display: flex;
+}
+
+.principal nav {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.principal nav a {
+    padding-bottom: 30px;
+}
+
+.main {
+    width: 80%;
+}
+
+.main section {
+    padding-left: 5%;
+}
+
+.main h3 {
+    padding-bottom: 3px;
+}
+
+.main p {
+    padding-bottom: 15px;
+    text-indent: 20px;
+}

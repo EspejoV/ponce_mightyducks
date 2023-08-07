@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bannertitulo{
+    position: static;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 1px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    
+
+}
+.banner {
+    height: 40vh;
+    background-image: url(design1_image1.jpg);
+}
+
+.banner h1 {
+    position: absolute;
+    font-size: 10vh;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 1px;
+}
+
+.titulo h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    position:absolute;
+    top: 40%;
+    left: 75%;
+    background-color: black;
+}
+
+.principal {
+    display: flex;
+    
+}
+
+.principal nav {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 5px;
+}
+
+.principal nav a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.671);
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#paginaactual{
+    color: rgb(255, 196, 35);
+    border: 1px solid rgb(255, 196, 35);
+}
+
+.main {
+    width: 80%;
+    
+}
+
+.main section {
+    padding-left: 5%;
+}
+
+.main h3 {
+    padding-bottom: 3px;
+}
+
+.main p {
+    padding-bottom: 15px;
+    text-indent: 20px;
+}
