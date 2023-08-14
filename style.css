@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bannertitulo{
+    position: static;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 1px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+.banner {
+    height: 40vh;
+    background-image: url(design1_image1.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.banner h1 {
+    position: absolute;
+    font-size: 10vh;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 1px;
+}
+
+.titulo h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    position:absolute;
+    top: 40%;
+    left: 75%;
+    background-color: black;
+}
+
+.principal {
+    display: flex;
+    
+}
+
+.principal nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.principal nav a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.671);
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#paginaactual{
+    color: rgb(255, 196, 35);
+    border: 1px solid rgb(255, 196, 35);
+}
+
+main {
+    width: 100vw;    
+    margin-right: 4vh;
+    margin-left: 4vh;
+}
+
+main section {
+    margin-bottom: 5vh;
+}
+
+main h3 {
+    padding-bottom: 2vh;
+}
+
+main p{
+    text-indent: 2vw;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.maintitle {
+    font-style: italic;
+}
+
+.maintitle p{
+    text-indent: 2vw;
+    text-decoration: underline;
+}
+
+.scheduletable {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+.scheduletable .tabledate, .tableheader th {
+    color: rgb(255, 196, 35);
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 1vw;
+}
+
+.scheduletable tr, .scheduletable td {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 1vw;
+}
+
+.scheduledescription div {  
+    display: flex;
+    margin-bottom: 2vh;
+
+}
+
+.scheduledescription h4 {
+    padding-right: 1vw;
+}
+
+.scheduledescription p {
+    text-indent: 0;
+}
+
+.mapblock {
+    display: flex;
+    width: 100%;
+}
+
+.map {
+    margin: 1vh;
+    padding: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.ruleslist, .allplay {
+    margin-left: 2vw;
+}
+
+.ruleslist h4 {
+    padding-bottom: 2vh;
+}
+
+.ruleslist li {
+    margin-bottom: 4vh;
+}
+
+.subruleslist {
+    margin-left: 2vw;
+    list-style: lower-latin;
+}
+
+.allplay li{
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
+
+.registrationform {
+    display: flex;
+    width: 80%;
+    padding-left: 4vw;
+    background-color: gray;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.671);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.tituloform {
+    display: flex;
+}
+.logoform {
+    padding: 5vw;
+}
+.logoform img {
+    position: absolute;
+    height: 15vw;
+}
+.personaldata {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 30vw;
+}
+
+.generaldata1, .generaldata2, .generaldata3, .signature {
+    width: 80%;
+}
+
+.checkbox-block{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    padding: 1vw;
+    width: 80%;
+}
+
+.signature {
+    justify-content: end;
+    margin-bottom: 1vw;
+    width: 80%;
+}
+
+.signaturesend {
+    margin-top: 2vw;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .bannertitulo {
+        border-bottom: 1px solid rgb(255, 196, 35);
+    }
+    .banner {
+        height: 0vh;
+    }
+    .titulo h2{
+        margin-bottom: 10px;
+    }
+    .logo {
+        visibility: hidden;
+    }
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .principal aside {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    .principal nav {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 80%;
+    }
+    .principal nav a {
+        padding: 10px;
+    }
+    main {   
+        width: 70%;    
+        margin-right: 2vh;
+        margin-left: 2vh;  
+    }
+
+    body {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+    }
+    .scheduletable {
+        font-size: 14px;
+    }
+
+    .scheduledescription {
+        width: 65vw;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 875px){
+
+    .mapblock {
+        display: inline;
+        width: 100%;
+    }
+}
